@@ -1,12 +1,12 @@
 :root {
   /* Colors */
-  --dark-grey: #333;
-  --light-grey: #999999;
+  --dark-grey: #141414;
+  --mid-grey: #262626; 
+  --cards-grey: #1a1a1a;
+  --text-grey: #999;
   --our-white:#fff;
   --primary-color: #5b4fd4;
-
-
-
+  
   /* Font */
   --main-font: 'Urbanist', sans-serif;
 }
