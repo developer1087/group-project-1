@@ -1,0 +1,39 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hero{
+   display: flex;
+}
+.hero__left{
+   width: 75rem;
+   height: 81rem;
+   display: flex;
+   justify-content: center;
+   gap: 6rem;
+}
+.hero__left__title__container{
+
+}
+.hero__left__title__container h1{
+   font-family: var(--main-font);
+   font-size: 2rem;
+   font-weight: 600;
+   color: var(--our-white);
+}
