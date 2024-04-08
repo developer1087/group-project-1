@@ -1,6 +1,6 @@
 
 body {
-  height: 5196px;;
+  height: 5196px;
   width: 100vw;
   background-color: var(--dark-grey);
 }
@@ -108,26 +108,40 @@ nav ul li a {
   font-size: 14px;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-email {
+  text-align: start;
+  margin-top: 8px;
+}
+
 .footer-input .logo img {
   width: 120px;
 }
 
-.footer-item ul li a{
+.footer-item ul {
+  width: 100%;
+}
+
+.footer-item ul li {
   text-align: left;
   color: #ffffff;
 }
-
 
 .footer-input:first-child {
   grid-column: 1 / span 3;
 }
 
-.input {
+.input-email {
   flex: 1;
   padding: 8px;
-  width: 200px; 
-  
-=======
+  width: 200px;
+  background-color: var(--dark-grey);
+}
+
 .hero__left__content__box{
   width: 239px;
   height: 121px;
