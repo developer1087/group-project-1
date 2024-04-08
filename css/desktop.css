@@ -1,0 +1,26 @@
+/* Reset */
+:root {
+  --dark-grey: #333;
+  --light-grey: #777;
+  --our-white:#fff;
+  --primary-color: #5b4fd4;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html {
+  font-family: 'Urbanist';
+}
+
+header {
+  display: block;
+}
+
+
