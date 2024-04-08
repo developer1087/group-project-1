@@ -1,25 +1,16 @@
-/* Reset */
-:root {
-  --dark-grey: #333;
-  --light-grey: #777;
-  --absolute-white:#ffffff;
-  --primary-color: #5b4fd4;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 body {
-  background-color: #141414;
+  height: 5196px;;
+  width: 100vw;
+  background-color: var(--dark-grey);
 }
 
 html {
   font-family: 'Urbanist';
 }
+
+
+/* Header area - Avi */
 
 header {
   display: block;
@@ -33,6 +24,7 @@ header {
 .top-line a {
   text-decoration: none;
   color: #fff;
+  background: transparent;
 }
 
 nav {
@@ -57,6 +49,53 @@ nav ul {
 nav ul li a {
   color: #fff;
   font-size: 16px;
+  margin-left: 1rem;
+}
+
+
+/* Hero section Artur */
+.hero{
+  display: flex;
+  gap: 80px;
+  position: relative;
+}
+/* Hero left section */
+.hero__left{
+  width: 920px;
+  height: 814px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 162px;
+  gap: 60px;
+}
+.hero__left__title__container{
+  width: 758px;
+  height: 222px;
+  gap: 24px;
+
+}
+.hero__left__title__container h1{
+  font-family: var(--main-font);
+  font-size: 60px;
+  font-weight: 600;
+  color: var(--our-white);
+}
+
+.hero__left__title__container p{
+  color: var(--our-white);
+  font-size: 18px;
+}
+
+.hero__left__btns{
+  display: flex;
+  gap: 20px;
+}
+
+.hero__left__content{
+  display: flex;
+  gap: 20px;
 }
 
 .footer {
@@ -88,4 +127,81 @@ nav ul li a {
   padding: 8px;
   width: 200px; 
   
+=======
+.hero__left__content__box{
+  width: 239px;
+  height: 121px;
+  padding: 16px 24px;
+  border-radius: 12px;
+}
+
+.hero__left__content h2{
+  color: var(--our-white);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.regular-p {
+  color: var(--our-white);
+  font-size: 18px;
+}
+
+/* Hero right section */
+.hero__right{
+  width: 920px;
+  height: 814px;
+  overflow: hidden;
+}
+.hero__right img{
+  width: 100%;
+  height: 100%;
+}
+.hero__dream__sticker{
+  position: absolute;
+  top: 170px;
+  left: 50%;
+}
+
+.card-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.card {
+  width: 24%;
+  height: 12lh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(46, 46, 46);
+  border-radius: 3%;
+  color: #fff;
+  position: relative;
+}
+.arrowhead {
+  position: absolute;
+  top: 10%;
+  right: 6%;
+}
+
+/* Featured properties - Avi */
+.featured {
+  display: block;
+  margin-top: 3rem;
+}
+
+.featured .top-area {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featured .top-area h2, .featured .top-area p {
+  color: var(--our-white);
+  margin: 1rem;
+}
+
+.featured .card-area .prop-card {
+  display: flex;
+  flex-direction: column;
 }
