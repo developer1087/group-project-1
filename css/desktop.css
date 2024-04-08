@@ -1,7 +1,8 @@
 
 body {
+  height: 5196px;;
+  width: 100vw;
   background-color: var(--dark-grey);
-
 }
 
 html {
