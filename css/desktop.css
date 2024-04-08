@@ -59,3 +59,33 @@ nav ul li a {
   font-size: 16px;
 }
 
+.footer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 20px;
+  background-color: #333;
+  color: #ffffff;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-input .logo img {
+  width: 120px;
+}
+
+.footer-item ul li a{
+  text-align: left;
+  color: #ffffff;
+}
+
+
+.footer-input:first-child {
+  grid-column: 1 / span 3;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  width: 200px; 
+  
+}
