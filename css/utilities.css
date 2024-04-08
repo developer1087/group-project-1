@@ -1,0 +1,16 @@
+.regular-p {
+  color: var(--our-white);
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+}
+
+.primary-btn {
+  border: var(--dark-grey) 1px solid;
+  border-radius: 5px;
+  background: var(--dark-grey);
+  color: var(--our-white);
+  padding: 1rem;
+}
