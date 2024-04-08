@@ -8,7 +8,7 @@
 }
 
 .primary-btn {
-  border: var(--dark-grey) 1px solid;
+  border: var(--mid-grey) 1px solid;
   border-radius: 5px;
   background: var(--dark-grey);
   color: var(--our-white);
