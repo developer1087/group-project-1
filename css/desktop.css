@@ -218,4 +218,9 @@ nav ul li a {
 .featured .card-area .prop-card {
   display: flex;
   flex-direction: column;
+  width: 300px;
+}
+
+.prop-card img {
+  width: 100%;
 }
