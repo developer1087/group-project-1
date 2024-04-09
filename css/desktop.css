@@ -102,31 +102,80 @@ nav ul li a {
 
 .featured {
   display: block;
+  padding: 34rem;
 }
 
-.card-area {
-  margin-top: 2rem;
+.featured .top-area {
   display: flex;
   justify-content: space-around;
+}
+
+.featured .top-area h2, .featured .top-area p {
   color: var(--our-white);
+  margin: 1rem;
+}
+
+.featured .top-area button {
+  background: var(--mid-grey);
+}
+
+.featured .card-area .prop-card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+
+.card-area {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  color: var(--our-white);
+  
 }
 
 .prop-card {
   width: 100%;
+  border-radius: 15px;
+  border: var(--cards-grey) 2px solid;
+  padding: 2rem;
+  margin: 1rem;
 }
 
-.prop-card * {
-  margin: 2rem 0;
+.prop-card img {
+  margin-bottom: 1rem;
 }
 
+.prop-card h3 {
+  margin: 1rem 0;
+}
 
 .specs {
+  margin-top: 1rem;
   display: flex;
   justify-content: space-around;
+  width: 100%;
+}
+
+.specs div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 0.5rem ;
+  background: var(--mid-grey);
+  border-radius: 30px;
+  margin: 0.1rem;
 }
 
 .specs div img {
-  width: 20px;
+  /* position: absolute; */
+  width: 15px;
+  margin: 0.5rem;
+}
+
+.specs div p {
+  font-size: 9px;
+  margin: 0.5rem;
 }
 
 .bottom {
@@ -134,6 +183,10 @@ nav ul li a {
   margin: 1rem;
   display: flex;
   justify-content: space-between;
+}
+
+.bottom div:last-child {
+  font-size: large;
 }
 
 /* Footer area - Liza */
@@ -224,28 +277,3 @@ nav ul li a {
   right: 6%;
 }
 
-/* Featured properties - Avi */
-.featured {
-  display: block;
-  margin-top: 3rem;
-}
-
-.featured .top-area {
-  display: flex;
-  justify-content: space-around;
-}
-
-.featured .top-area h2, .featured .top-area p {
-  color: var(--our-white);
-  margin: 1rem;
-}
-
-.featured .card-area .prop-card {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-}
-
-.prop-card img {
-  width: 100%;
-}
