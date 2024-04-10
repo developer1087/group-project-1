@@ -168,21 +168,37 @@ nav ul li a {
   display: block;
 }
 
-.featured .top-area {
+.featured__top__area{
+  padding: 0 10rem;
   display: flex;
-  justify-content: space-around;
-  margin: 0 30rem;
 }
 
-.top-area h2, .top-area p {
+.featured__title img{
+  margin-top: 2rem;
+  margin-left: -1rem;
+}
+
+.featured__title h2{
   color: var(--our-white);
-  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
-
-.top-area button {
-  background: var(--mid-grey);
-  padding: 0 10px;
+.featured__title p{
+  width: 75%;
+  color: var(--text-grey);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.featured__top__area button {
+  display: flex;
+  align-self: flex-end;
+  height: 3.5rem;
+  width: 11rem;
+  font-size: 1rem;
   font-size: 10px;
+  text-align: center;
 }
 
 .card-area .prop-card {
@@ -314,7 +330,7 @@ nav ul li a {
   margin: 1rem 0;
 }
 .icon__card {
-  width: 23vw;
+  width: 24vw;
   height: 9lh;
   display: flex;
   flex-direction: column;
@@ -338,5 +354,7 @@ nav ul li a {
   top: 10%;
   right: 6%;
 }
+
+
 
 
