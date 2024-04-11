@@ -168,39 +168,52 @@ nav ul li a {
   display: block;
 }
 
-.featured .top-area {
+.featured__top__area{
+  padding: 0 10rem;
   display: flex;
-  justify-content: space-around;
-  margin: 0 30rem;
+  justify-content: space-between;
 }
 
-.top-area h2, .top-area p {
+.featured__title img{
+  margin-top: 2rem;
+  margin-left: -1rem;
+}
+
+.featured__title h2{
   color: var(--our-white);
-  margin: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
-
-.top-area button {
-  background: var(--mid-grey);
-  padding: 0 10px;
+.featured__title p{
+  width: 75%;
+  color: var(--text-grey);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.featured__top__area button {
+  display: flex;
+  align-self: flex-end;
+  height: 3.5rem;
+  width: 11rem;
+  font-size: 1rem;
   font-size: 10px;
+  text-align: center;
 }
-
-.card-area .prop-card {
+.featured__cards {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  color: var(--our-white);
+}
+.featured__cards .featured__cards__card {
   display: flex;
   flex-direction: column;
   width: 300px;
 }
 
-
-.card-area {
-  margin: 2rem;
-  display: flex;
-  justify-content: center;
-  color: var(--our-white);
-  
-}
-
-.prop-card {
+.featured__cards__card {
   width: 100%;
   border-radius: 15px;
   border: var(--cards-grey) 2px solid;
@@ -208,13 +221,29 @@ nav ul li a {
   margin: 1rem;
 }
 
-.prop-card img {
+.featured__cards__card img {
   margin-bottom: 1rem;
 }
 
-.prop-card h3 {
+.featured__cards__card h3 {
   margin: 1rem 0;
 }
+
+.slides{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10rem;
+  color: var(--our-white);
+  font-size: 1.2rem;
+  align-items: end;
+  border-top: 2px solid var(--cards-grey);
+}
+.slides__arrows img{
+  margin-top: 1rem;
+  width: 7rem;
+  height: 3rem;
+}
+
 
 .specs {
   margin-top: 1rem;
@@ -256,18 +285,146 @@ nav ul li a {
 }
 
 /* Testimonials - Avi */
-.testimonials {
-  display: block;
-}
 
-.testimonials .top-area {
+.testimonials__top__area{
+  padding: 0 10rem;
   display: flex;
-  justify-content: space-around;
-  margin: 0 20rem;
+  justify-content: space-between;
 }
 
+.testimonials__title img{
+  margin-top: 2rem;
+  margin-left: -1rem;
+}
 
+.testimonials__title h2{
+  color: var(--our-white);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.testimonials__title p{
+  width: 100%;
+  color: var(--text-grey);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.testimonials__top__area button {
+  display: flex;
+  align-self: flex-end;
+  height: 3.5rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-size: 10px;
+}
+.testimonials__cards{
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--our-white);
+  margin: 3rem 5rem;
+}
+.testimonials__cards__card {
+  width: 100%;
+  border-radius: 15px;
+  border: var(--cards-grey) 2px solid;
+  padding: 3rem;
+  margin: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5rem;
+}
+.testimonials__stars{
+  width: 50%;
+  height: 5rem;
+}
+.testimonials__cards__card p{
+  padding-right: 3rem;
+}
+.testimonials__cards__card .bottom{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.testimonials__cards__card .bottom img{
+  width: 4.5rem;
+  height: 4.5rem;
+}
+.testimonials__cards__card .bottom .testimony{
+  font-size: 1rem;
+  line-height: 2;
+  margin-left: 1rem;
+}
 
+/* FAQ */
+
+.faq__top__area{
+  padding: 0 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faq__title img{
+  margin-top: 2rem;
+  margin-left: -1rem;
+}
+
+.faq__title h2{
+  color: var(--our-white);
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2rem;
+}
+.faq__title p{
+  width: 93%;
+  color: var(--text-grey);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+.faq__top__area button {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  height: 3.5rem;
+  width: 12rem;
+  font-size: 1rem;
+  font-size: 10px;
+}
+.faq__cards{
+  display: flex;
+  justify-content: space-evenly;
+  color: var(--our-white);
+  margin: 3rem 5rem;
+}
+.faq__cards__card {
+  width: 100%;
+  border-radius: 15px;
+  border: var(--cards-grey) 2px solid;
+  padding: 3rem;
+  margin: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.faq__cards__card h2{
+  font-weight: 500;
+  line-height: 1.3;
+}
+.faq__cards__card p{
+  color: var(--text-grey);
+  font-size: 1rem;
+  margin-right: 2rem;
+}
+.faq__cards__card button{
+  font-size: 1rem;
+  width: 8rem;
+  height: 3rem;
+  padding: 1rem;
+}
 /* Footer area - Liza */
 .footer {
   display: grid;
@@ -314,7 +471,7 @@ nav ul li a {
   margin: 1rem 0;
 }
 .icon__card {
-  width: 23vw;
+  width: 24vw;
   height: 9lh;
   display: flex;
   flex-direction: column;
@@ -339,4 +496,7 @@ nav ul li a {
   right: 6%;
 }
 
+#text--grey{
+  color: var(--text-grey);
+}
 
