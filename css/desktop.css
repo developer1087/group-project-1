@@ -506,6 +506,24 @@ nav ul li a {
   grid-column: 1 / span 3;
 }
 
+.footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--cards-grey);
+}
+
+.footer-bottom p, .footer-bottom p a{
+  color: var(--our-white);
+}
+
+.socials img {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+  background: var(--dark-grey);
+}
+
 .arrowhead {
   position: absolute;
   top: 10%;
