@@ -1,7 +1,7 @@
 .regular-p {
   color: var(--our-white);
   font-family: Urbanist;
-  font-size: 18px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 150%; /* 27px */
@@ -13,6 +13,8 @@
   border: 0.5px solid var(--mid-grey);
   color: var(--our-white);
   padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
 }
 
 .secondary-btn {
@@ -20,8 +22,9 @@
   border-radius: 5px;
   background: var(--primary-color);
   color: var(--our-white);
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 0 1rem;
+  cursor: pointer;
 }
 
 hr {
