@@ -1,0 +1,28 @@
+.hamburger {
+  display: none;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.featured {
+  padding: 10rem;
+}
+
+.testimonials {
+  padding: 10rem;
+
+}
+
+.faq {
+  padding: 10rem;
+}
+
+.cta {
+  padding: 10rem;
+}
+
+.footer {
+  padding: 10rem;
+}

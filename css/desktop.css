@@ -58,6 +58,14 @@ nav ul li a {
   margin-left: 1rem;
 }
 
+.hamburger {
+  display: none;
+}
+
+.mobile-img {
+  display: none;
+}
+
 /* Hero section  Artur*/
 .hero {
   width: 100%;
@@ -161,7 +169,7 @@ nav ul li a {
 .featured {
   margin-top: 5rem;
   display: block;
-  padding: 0 18rem;
+  padding: 0 28rem;
 }
 
 .featured__top__area{
@@ -204,7 +212,7 @@ nav ul li a {
 .featured__cards .featured__cards__card {
   display: flex;
   flex-direction: column;
-  width: 300px;
+  width: 33%;
 }
 
 .featured__cards__card {
@@ -282,7 +290,7 @@ nav ul li a {
 /* Testimonials - Avi */
 
 .testimonials {
-  padding: 0 18rem;
+  padding: 0 28rem;
 }
 
 .testimonials__top__area{
@@ -360,7 +368,7 @@ nav ul li a {
 /* FAQ */
 
 .faq {
-  padding: 0 18rem;
+  padding: 0 28rem;
 }
 
 .faq__top__area{
@@ -432,7 +440,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: end;
-  padding: 5rem 18rem;
+  padding: 5rem 28rem;
   background: url(../image/Abstract\ Design1.png), url(../image/Abstract\ Design.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
@@ -468,7 +476,7 @@ nav ul li a {
   grid-gap: 20px;
   background-color: var(--dark-grey);
   color: #ffffff;
-  padding: 5rem 18rem;
+  padding: 5rem 28rem;
   font-size: 14px;
   margin: auto;
 }

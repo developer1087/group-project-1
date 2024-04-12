@@ -1,0 +1,60 @@
+body {
+  position: relative;
+}
+
+/* Header area */
+
+header .top-line p {
+  font-size: 12px;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+nav ul {
+  display: none;
+}
+
+nav .btn {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+}
+
+/* Hero */
+
+.hero {
+  display: block;
+}
+
+.mobile-img {
+  display: block;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.hero__left {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 2rem;
+}
+
+.hero__right {
+  display: none;
+}
+
+.icon__cards__container {
+  position: relative;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
