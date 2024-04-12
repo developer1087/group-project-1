@@ -231,6 +231,7 @@ nav ul li a {
   font-size: 1.2rem;
   align-items: end;
   border-top: 2px solid var(--cards-grey);
+  margin-bottom: 2rem;
 }
 .slides__arrows img{
   margin-top: 1rem;
@@ -431,9 +432,11 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: end;
-  padding: 0 18rem;
-  margin: 5rem 0;
-
+  padding: 5rem 18rem;
+  background: url(../image/Abstract\ Design1.png), url(../image/Abstract\ Design.png);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+  background-size: 50% 100%;
 }
 
 .cta__title h3 {
@@ -463,31 +466,45 @@ nav ul li a {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-gap: 20px;
-  background-color: #333;
+  background-color: var(--dark-grey);
   color: #ffffff;
-  padding: 20px;
+  padding: 5rem 18rem;
   font-size: 14px;
+  margin: auto;
 }
 
 .footer-input .logo img {
   width: 120px;
 }
 
-.footer-item ul li a{
-  text-align: left;
-  color: #ffffff;
+.footer-input .input {
+  padding: 1rem;
+  border: 1px solid var(--mid-grey);
+  border-radius: 10px;
+  margin-right: 10rem;
+  display: flex;
+  justify-content: space-between;
 }
 
+.footer-input input {
+  background: var(--dark-grey);
+  border: none;
+}
+
+.footer-item ul li a{
+  text-align: left;
+  color: var(--our-white);
+  font-size: 10px;
+}
+
+.footer-item ul li a.first {
+  padding-bottom: 10px;
+  color: var(--text-grey);
+}
 
 .footer-input:first-child {
   grid-column: 1 / span 3;
 }
-
-.input {
-  flex: 1;
-  padding: 8px;
-  width: 200px; 
-} 
 
 .arrowhead {
   position: absolute;

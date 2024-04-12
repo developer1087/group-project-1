@@ -24,3 +24,9 @@
   padding: 0 1rem;
 }
 
+hr {
+  height: 1px;
+  background: var(--cards-grey);
+  border: none;
+}
+
