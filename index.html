@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="./css/utilities.css">
   <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="./css/desktop.css">
-  <link rel="stylesheet" media="screen and (max-width: 1366px)" href="./css/laptop.css">
-  <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/mobile.css">
+  <link rel="stylesheet" media="screen and (max-width: 1700px)" href="./css/laptop.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="./css/mobile.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -36,6 +36,7 @@
       <div class="btn">
         <button class="primary-btn">Contact Us</button>
       </div>
+      <img class="hamburger" src="./image/hamburger.svg" alt="">
     </nav>
   </header>
   <!-- Hero Section Artur -->
@@ -44,6 +45,7 @@
       <img src="image/Sub Container.png" alt="" />
     </div>
     <div class="hero__left">
+      <img src="./image/Container.png" alt="" class="mobile-img">
         <div class="hero__left__title__container">
           <h1>Discover Your Dream Property with Estatein</h1>
           <p class="regular-p">Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
@@ -283,7 +285,13 @@
     </div>
   </section>
 
-
+  <section class="cta">
+    <div class="cta__title">
+      <h3>Start Your Real Estate Journey Today</h3>
+      <p>Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
+    </div>
+    <button class="secondary-btn">Explore Properties</button>
+  </section> 
 
 
   <footer class="footer">
@@ -293,7 +301,7 @@
       </div>
       <div class="input">
         <input type="input" placeholder="Enter your email">
-        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        <button type="submit"><i class="fa-solid fa-paper-plane"></i></button>
       </div>
     </div>
     <div class="footer-item">
@@ -342,8 +350,10 @@
     </div>
   </footer>
   <div class="footer-bottom">
-    <p>&copy; Estatein. All Rights Reserved.</p>
-    <p><a href="#">Terms & Conditions</a></p>
+    <div>
+      <p>&copy; Estatein. All Rights Reserved.</p>
+      <p><a href="#">Terms & Conditions</a></p>
+    </div>
     <div class="socials">
       <img src="./image/Icon.svg" alt="">
       <img src="./image/Icon (1).svg" alt="">
