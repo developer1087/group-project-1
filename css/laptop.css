@@ -6,23 +6,45 @@
   display: none;
 }
 
-.featured {
-  padding: 10rem;
-}
-
-.testimonials {
-  padding: 10rem;
-
-}
-
-.faq {
-  padding: 10rem;
-}
-
-.cta {
-  padding: 10rem;
-}
-
-.footer {
-  padding: 10rem;
+@media screen and (min-width: 600px) and (max-width: 1080px) {
+  .hero {
+    height: 60vh;
+  }
+  .hero__left {
+    padding-left: 4rem;
+    padding-right: 1rem;
+  }
+  .hero__left__title__container h1 {
+    font-size: 3rem;
+  }
+  .hero__left__cards {
+    gap: 0.7rem;
+  }
+  .hero__left__card {
+    padding: 0.5rem 0.5rem;
+  }
+  .featured {
+    padding: 0 1rem;
+  }
+  .featured__top__area {
+    padding: 0 4rem;
+  }
+  .testimonials {
+    padding: 0 1rem;
+  }
+  .testimonials__top__area {
+    padding: 0 4rem;
+  }
+  .faq {
+    padding: 0 1rem;
+  }
+  .faq__top__area {
+    padding: 0 4rem;
+  }
+  .cta {
+    padding: 0 4rem;
+  }
+  .footer {
+    padding: 4rem 4rem 0 4rem;
+  }
 }
