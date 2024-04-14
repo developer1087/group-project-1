@@ -174,7 +174,7 @@ nav ul li a {
 .featured {
   margin-top: 5rem;
   display: block;
-  padding: 0 28rem;
+  padding: 0 15rem;
 }
 
 .featured__top__area{
@@ -297,7 +297,7 @@ nav ul li a {
 /* Testimonials - Avi */
 
 .testimonials {
-  padding: 0 28rem;
+  padding: 0 15rem;
 }
 
 .testimonials__top__area{
@@ -379,7 +379,7 @@ nav ul li a {
 /* FAQ */
 
 .faq {
-  padding: 0 28rem;
+  padding: 0 15rem;
 }
 
 .faq__top__area{
@@ -455,7 +455,7 @@ nav ul li a {
   display: flex;
   justify-content: space-around;
   align-items: end;
-  padding: 5rem 28rem;
+  padding: 5rem 15rem;
   background: url(../image/Abstract\ Design1.png), url(../image/Abstract\ Design.png);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
